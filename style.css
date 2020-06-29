@@ -1,0 +1,339 @@
+body{
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Open Sans', sans-serif;
+}
+/*------------------------HEADER---------------------------*/
+header{
+    height: 100px;
+    box-sizing: border-box;
+    padding:30px 10px;
+}
+header img{
+    float: left;
+    height: 36px;
+}
+nav ul{
+    list-style: none;
+    float: right;
+    line-height: 36px;
+    padding-left: 0px;
+    margin: 0px;
+    font-size: 16px;
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 3px;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #111;
+}
+/*-----------------------TOP--------------------------*/
+.top{
+    padding: 0 20px;
+}
+.top-right{
+    width: 100%;
+}
+.top-right img{
+    width: 100%;
+}
+.top-left{
+    text-align: center;
+    color:  hsl(243, 87%, 12%);
+
+}
+.top-left h1{
+    font-size: 1.6em; 
+    font-family: 'Raleway', sans-serif;
+}
+form{
+    width: 100%;
+    text-align: center;
+}
+input{
+    display: block;
+    width: 100%;
+    margin: 20px auto 20px;
+    box-sizing: border-box;
+    padding:15px;
+    border-radius: 5px;
+}
+.email{
+    color:  hsl(0, 0%, 75%);
+    border: 1px solid hsl(0, 0%, 75%);
+}
+.submit{
+    font-weight: 700;
+    background-color:  hsl(224, 93%, 58%);
+    border: none;
+    color: #f2f2f2;
+    font-size: 16px;
+}
+/*------------------------------MID----------------------*/ 
+
+.curve-img{
+    height: 70px;
+    width: 100%;
+    background-image:url(images/bg-curve-mobile.svg);
+    background-repeat: no-repeat;
+    background-color: white;
+    background-size: cover;
+    background-position: center;
+}
+.mid{
+    background-color:  hsl(240, 75%, 98%);
+    margin: 30px auto 0px;
+    padding-bottom: 30px;
+}
+.mid-right{
+    margin: 20px 20px;
+}
+.mid-right img{
+    width: 100%;  
+}
+.mid-left{
+    text-align: center;
+}
+.mid-left h2{
+    font-size: 1.3em;
+    margin: 30px auto;
+    font-family: 'Raleway', sans-serif;
+}
+.mid-left p{
+    text-align: left;
+    padding: 5px 15px ;
+    color:  hsl(0, 0%, 75%);
+}
+.mid-left h3{
+    color: hsl(170, 45%, 43%);
+    display: inline-block;
+    margin: 8px auto;
+}
+.head3{
+    width: fit-content;
+    margin: 20px auto;
+    border-bottom: 2px solid hsl(170, 45%, 43%);
+}
+.quotes{
+    text-align:justify;
+    width: 80%;
+    margin: 30px auto;
+    background-color: white;
+    box-sizing: border-box;
+    padding: 20px;
+}
+.avatar{
+    height: 50px;
+    border-radius: 50%;
+}
+.quotes p{
+    color: #111;
+    padding: 0;
+    margin: 5px auto;
+    font-size: 0.9em;
+}
+table{
+    margin-top: 30px;
+}
+td{
+    padding: 5px;
+}
+span{
+    display: block;
+    font-weight: 900;
+}
+/*--------------------bottom----------------------------------*/
+
+.bottom{
+    background-color:  hsl(238, 22%, 44%);
+    text-align: center;
+    color: white;
+    box-sizing: border-box;
+    padding: 30px 0px;
+}
+.bottom p{
+    margin: 0 20px;
+}
+.bottom form{
+    width: 75%;
+    margin: 20px auto;
+}
+/*---------------------foot----------------------------------*/
+.foot{
+    background-color:  hsl(243, 87%, 12%);
+    color: white;
+    box-sizing: border-box;
+    padding: 30px;
+}
+.foot table{
+}
+.foot ul{
+    list-style: none;
+    padding-left: 0;
+}
+.handles{
+    width: fit-content;
+    margin: 0 auto ;  
+}
+.handles img{
+    padding: 10px;
+}
+
+@media only screen and (min-width:1000px){
+
+/*------------------------HEADER---------------------------*/
+header{
+    height: 200px;
+    padding:50px;
+}
+header img{
+    height: initial;
+}
+nav ul li{
+    display: inline-block;
+    margin-left: 20px;
+}
+
+/*-----------------------TOP--------------------------*/
+.top{
+    padding: 0 20px;
+    display: table-cell;
+    vertical-align: middle;
+}
+.top-right{
+    display: inline-block;
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    padding: 0px 20px;
+}
+.top-left{
+    width: 50%;
+    text-align: left;
+    color:  hsl(243, 87%, 12%);
+    float: left;
+    box-sizing: border-box;
+    padding: 0px 20px;
+    margin: 20px auto;
+}
+.top-left h1{
+    font-size: 2em; 
+}
+form{
+    text-align: left;
+}
+input{
+    display: inline;
+    margin: 20px auto 20px;
+    box-sizing: border-box;
+    padding:15px;
+}
+.email{
+    width: 250px;
+    margin-right:5px ;
+}
+.submit{
+    width: 150px;
+    font-size: 12px;
+}
+/*-----------------MID-------------*/
+
+.curve-img{
+    height: 100px;
+    background-image:url(images/bg-curve-desktop.svg);
+}
+.mid{
+    background-color:  hsl(240, 75%, 98%);
+    margin: 30px auto 0px;
+    padding-bottom: 0px;
+    box-sizing: border-box;
+    height: 800px;
+}
+.mid-right{
+    width: 50%;
+    float: right;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 30px;
+}
+.mid-left{
+    width: 45%;
+    text-align: left;
+    float: left;
+    box-sizing: border-box;
+    padding: 30px 30px 0px;
+}
+.mid-left p{
+    padding: 0px ;
+}
+.head3{
+    margin-left: 0px;
+}
+.quotes{
+    margin-left: 0;
+}
+
+/*--------------------bottom--------------*/
+.bottom{
+    height: 300px;
+    padding: 30px 0px;
+}
+.bottom p{
+    margin: 0px;
+}
+.bottom form{
+    width: 100%;
+    margin: 20px auto;
+}
+
+.bottom-left{
+    width: 50%;
+    float: left;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 30px;
+}
+.bottom-right{
+    width: 50%;
+    float: right;
+    text-align: left;
+    box-sizing: border-box;
+    padding-left: 150px;
+}
+.bottom input{
+    display: block;
+    margin-left:0 ;
+}
+
+/*---------------------foot----------------------------------*/
+.foot{
+    padding: 50px;
+}
+.foot table{
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 0;
+    padding-right: 100px;
+}
+.foot ul{
+    display: inline-block;
+    width: fit-content;
+    margin-top: 0px;
+    padding-right: 100px;
+    vertical-align: top;
+}
+.handles{
+    display: inline-block; 
+    vertical-align: top;
+}
+.links{
+    padding: 50px 0px;
+}
+
+
+
+
